@@ -27,11 +27,11 @@
     },
     "ADMINS":{
       "description": "ID of admins",
-      "value": ""
+      "value": "6216705387"
     },
     "GROUPS":{
       "description": "ID of the groups where the bot work (seperate by spaces)",
-      "value": ""
+      "value": "-1001693696820"
     },
     "TIME": {
       "description": "Time in seconds",
