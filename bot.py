@@ -2,16 +2,16 @@ import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
 
-API_ID = int(environ.get("API_ID"))
-API_HASH = environ.get("API_HASH")
+API_ID = int(environ.get("25880697"))
+API_HASH = environ.get("ccbeeaf507caf64c00ec327407faa7a2")
 BOT_TOKEN = environ.get("BOT_TOKEN")
-SESSION = environ.get("")
+SESSION = environ.get("BQAKfHy7NCwtk6sUz6UWWRQWNqDVdSr4gD250Cl6bMUZMAt-0o06glGMHOAAy1cTjnWxy1EBr-exxWyzyIgwyoZmeH2RmNqViIUVYu_V4FoX4_v9s-uOAjeZD79ScGjJGHLDPiYJk2LBdkB-kNAohmEQIExCC62TMGC9hVRDygB0AGPiVC7sbp7cxis3_XNpfSbbXigxy43jh8kt-8_Dhx-LrPB60cbW1bjkxNXgQYITdk0_20MuQYtA3KTGpQK_ir4KpseQjf8zDGIJyfCfBhoY1-zxByaue1F93-x-J5z590E5LiaduJpwe2GvfDGCE7ZxgDTn29KcfCKRAJatHWUfAAAAAXKLZWsA")
 TIME = int(environ.get("TIME"))
 GROUPS = []
-for grp in environ.get("GROUPS").split():
+for grp in environ.get("-1001693696820").split():
     GROUPS.append(int(grp))
 ADMINS = []
-for usr in environ.get("ADMINS").split():
+for usr in environ.get("6216705387").split():
     ADMINS.append(int(usr))
 
 START_MSG = "<b>Hai {},\nI'm a simple bot to delete group messages after a specific time</b>"
